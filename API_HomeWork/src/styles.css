@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  border: 4px purple solid;
+  border-radius: 10px;
+  padding: 1rem 1.5rem;
+  margin: 1rem auto;
+}
+
+.city {
+  color: rgba(22, 1, 255, 0.593);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  width: 50%;
+  height: 120px;
+  min-width: 400px;
+  border-left: 3px darkblue solid;
+  border-radius: 1rem;
+  padding: 0 1.5rem;
+  display: flex;
+  position: relative;
+  left: 1rem;
+}
+.title-icon {
+  font-size: 500%;
+  width: 100px;
+  margin-left: -20px;
+}
+#country_city {
+  font-size: 300%;
+  line-height: 30px;
+  flex: auto;
+  margin-top: 1.3rem;
+  min-width: 16rem;
+}
+.cont {
+  display: flex;
+}
+.city-info {
+  font-family: monospace;
+  width: 60%;
+  margin-left: auto;
+  padding: 1rem;
+  height: 120px;
+  min-width: 400px;
+  border-right: 3px darkblue solid;
+  border-radius: 1rem;
+  position: relative;
+  top: 2.5rem;
+  left: -1rem;
+}
+
+.temp-container {
+  display: flex;
+  margin-left: -1.5rem;
+}
+.temp-container img {
+  position: relative;
+  bottom: 2rem;
+  left: -1rem;
+  width: 70%;
+}
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.stretch {
+  min-width: 200px;
+  display: flex;
+}
+
+.humidity {
+  min-width: 200px;
+  list-style: none;
+  margin-left: -1rem;
+}
+
+.next-days {
+  font-size: x-large;
+  text-align: center;
+  text-decoration: underline wavy 5px rgb(143, 24, 255);
+  text-underline-offset: 7px;
+}
+
+i {
+  font-size: xx-large;
+}
+
+.search {
+  border: 1px solid #dadde1;
+  padding: 1rem;
+  margin: 1rem auto;
+  border-radius: 10px;
+  max-width: 600px;
+}
+
+.hidden {
+  visibility: hidden;
+  position: relative;
+  width: max-content;
+  top: -3.5rem;
+  right: -1rem;
+}
+
+form input {
+  padding-left: 0.5rem;
+}
+
+.help {
+  width: 1rem;
+}
+
+.date {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 1.5rem;
+}
