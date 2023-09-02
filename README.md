@@ -1,3 +1,3 @@
-# SheCodesBasic
+# SheCodes
 
 ## Makinig Changes
